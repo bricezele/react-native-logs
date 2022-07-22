@@ -131,7 +131,7 @@ class logs {
   private _transportOptions: any;
   private _async: boolean;
   private _asyncFunc: Function;
-  private _stringifyFunc: (msg: any) => string;
+  private _stringifyFunc: (msg: any) => string | any;
   private _dateFormat: string | ((date: Date) => string);
   private _printLevel: boolean;
   private _printDate: boolean;
